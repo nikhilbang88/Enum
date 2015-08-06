@@ -1,0 +1,10 @@
+
+public class Salary {
+	
+public boolean isWorkingDay(Weekdays day)
+{
+	if(day.equals(day.SUNDAY))
+	return false;
+	return true;
+}
+}
