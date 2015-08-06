@@ -9,7 +9,9 @@ public class driver {
 		
 		System.out.println(sal.isWorkingDay(day1));
 		System.out.println(sal.isWorkingDay(day));
-		
+		for(Weekdays temp:Weekdays.values()){
+			System.out.println(temp.toString());
+		}
 		
 	}
 	
